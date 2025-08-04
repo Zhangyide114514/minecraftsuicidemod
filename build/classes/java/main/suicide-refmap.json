@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/red/suicide/mixin/CommandManagerMixin": {
+      "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+    },
+    "com/red/suicide/mixin/PlayerDeathMixin": {
+      "Lnet/minecraft/server/PlayerManager;broadcast(Lnet/minecraft/text/Text;Z)V": "Lnet/minecraft/class_3324;method_43514(Lnet/minecraft/class_2561;Z)V",
+      "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/red/suicide/mixin/CommandManagerMixin": {
+        "<init>": "Lnet/minecraft/class_2170;<init>(Lnet/minecraft/class_2170$class_5364;Lnet/minecraft/class_7157;)V"
+      },
+      "com/red/suicide/mixin/PlayerDeathMixin": {
+        "Lnet/minecraft/server/PlayerManager;broadcast(Lnet/minecraft/text/Text;Z)V": "Lnet/minecraft/class_3324;method_43514(Lnet/minecraft/class_2561;Z)V",
+        "onDeath": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+      }
+    }
+  }
+}
