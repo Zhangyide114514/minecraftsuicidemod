@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "client",
+  "version": "${version}",
+
+  "name": "client",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/client/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": ["org.red.client.client.ClientDataGenerator"],
+    "main": ["org.red.client.Client"]
+  },
+
+  "mixins": [
+    "client.mixins.json"
+    ,{
+      "config": "client.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
