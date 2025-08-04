@@ -1,8 +1,8 @@
 package com.red.suicide.mixin;
 
-import com.red.suicide.SuicideCommand;
-import com.red.suicide.ReloadConfigCommand;
 import com.mojang.brigadier.CommandDispatcher;
+import com.red.suicide.ReloadConfigCommand;
+import com.red.suicide.SuicideCommand;
 import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
